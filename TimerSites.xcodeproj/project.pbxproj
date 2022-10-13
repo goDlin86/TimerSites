@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92F6474328F810E1005DC859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F6474228F810E1005DC859 /* AppDelegate.swift */; };
+		92F6474528F810E1005DC859 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F6474428F810E1005DC859 /* SceneDelegate.swift */; };
+		92F6474828F810E1005DC859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F6474628F810E1005DC859 /* LaunchScreen.storyboard */; };
+		92F6474B28F810E1005DC859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F6474928F810E1005DC859 /* Main.storyboard */; };
+		92F6475428F810E1005DC859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F6475328F810E1005DC859 /* AppDelegate.swift */; };
+		92F6475728F810E1005DC859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F6475528F810E1005DC859 /* Main.storyboard */; };
+		92F6475E28F810E1005DC859 /* TimerSites Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 92F6475D28F810E1005DC859 /* TimerSites Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		92F6476828F810E1005DC859 /* TimerSites Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 92F6476728F810E1005DC859 /* TimerSites Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		92F6476E28F810E1005DC859 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472928F810E0005DC859 /* Main.html */; };
+		92F6476F28F810E1005DC859 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472928F810E0005DC859 /* Main.html */; };
+		92F6477028F810E1005DC859 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472B28F810E0005DC859 /* Icon.png */; };
+		92F6477128F810E1005DC859 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472B28F810E0005DC859 /* Icon.png */; };
+		92F6477228F810E1005DC859 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472C28F810E0005DC859 /* Style.css */; };
+		92F6477328F810E1005DC859 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472C28F810E0005DC859 /* Style.css */; };
+		92F6477428F810E1005DC859 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472D28F810E0005DC859 /* Script.js */; };
+		92F6477528F810E1005DC859 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472D28F810E0005DC859 /* Script.js */; };
+		92F6477628F810E1005DC859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F6472E28F810E0005DC859 /* ViewController.swift */; };
+		92F6477728F810E1005DC859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F6472E28F810E0005DC859 /* ViewController.swift */; };
+		92F6477828F810E1005DC859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472F28F810E1005DC859 /* Assets.xcassets */; };
+		92F6477928F810E1005DC859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F6472F28F810E1005DC859 /* Assets.xcassets */; };
+		92F6477A28F810E1005DC859 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F6473128F810E1005DC859 /* SafariWebExtensionHandler.swift */; };
+		92F6477B28F810E1005DC859 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F6473128F810E1005DC859 /* SafariWebExtensionHandler.swift */; };
+		92F6477C28F810E1005DC859 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473328F810E1005DC859 /* _locales */; };
+		92F6477D28F810E1005DC859 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473328F810E1005DC859 /* _locales */; };
+		92F6477E28F810E1005DC859 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473428F810E1005DC859 /* images */; };
+		92F6477F28F810E1005DC859 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473428F810E1005DC859 /* images */; };
+		92F6478028F810E1005DC859 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473528F810E1005DC859 /* manifest.json */; };
+		92F6478128F810E1005DC859 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473528F810E1005DC859 /* manifest.json */; };
+		92F6478228F810E1005DC859 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473628F810E1005DC859 /* background.js */; };
+		92F6478328F810E1005DC859 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473628F810E1005DC859 /* background.js */; };
+		92F6478428F810E1005DC859 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473728F810E1005DC859 /* content.js */; };
+		92F6478528F810E1005DC859 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473728F810E1005DC859 /* content.js */; };
+		92F6478628F810E1005DC859 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473828F810E1005DC859 /* popup.html */; };
+		92F6478728F810E1005DC859 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473828F810E1005DC859 /* popup.html */; };
+		92F6478828F810E1005DC859 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473928F810E1005DC859 /* popup.css */; };
+		92F6478928F810E1005DC859 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473928F810E1005DC859 /* popup.css */; };
+		92F6478A28F810E1005DC859 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473A28F810E1005DC859 /* popup.js */; };
+		92F6478B28F810E1005DC859 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 92F6473A28F810E1005DC859 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92F6475F28F810E1005DC859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92F6472328F810E0005DC859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F6475C28F810E1005DC859;
+			remoteInfo = "TimerSites Extension (iOS)";
+		};
+		92F6476928F810E1005DC859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92F6472328F810E0005DC859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F6476628F810E1005DC859;
+			remoteInfo = "TimerSites Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92F6479128F810E1005DC859 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				92F6475E28F810E1005DC859 /* TimerSites Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6479828F810E1005DC859 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				92F6476828F810E1005DC859 /* TimerSites Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92F6472A28F810E0005DC859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		92F6472B28F810E0005DC859 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		92F6472C28F810E0005DC859 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		92F6472D28F810E0005DC859 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		92F6472E28F810E0005DC859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92F6472F28F810E1005DC859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92F6473128F810E1005DC859 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		92F6473328F810E1005DC859 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		92F6473428F810E1005DC859 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		92F6473528F810E1005DC859 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		92F6473628F810E1005DC859 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		92F6473728F810E1005DC859 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		92F6473828F810E1005DC859 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		92F6473928F810E1005DC859 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		92F6473A28F810E1005DC859 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		92F6473F28F810E1005DC859 /* TimerSites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerSites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F6474228F810E1005DC859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92F6474428F810E1005DC859 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92F6474728F810E1005DC859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92F6474A28F810E1005DC859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92F6474C28F810E1005DC859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F6475128F810E1005DC859 /* TimerSites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerSites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F6475328F810E1005DC859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92F6475628F810E1005DC859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92F6475828F810E1005DC859 /* TimerSites.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimerSites.entitlements; sourceTree = "<group>"; };
+		92F6475D28F810E1005DC859 /* TimerSites Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TimerSites Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F6476228F810E1005DC859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F6476728F810E1005DC859 /* TimerSites Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TimerSites Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F6476C28F810E1005DC859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F6476D28F810E1005DC859 /* TimerSites.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimerSites.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92F6473C28F810E1005DC859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6474E28F810E1005DC859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6475A28F810E1005DC859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6476428F810E1005DC859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92F6472228F810E0005DC859 = {
+			isa = PBXGroup;
+			children = (
+				92F6472728F810E0005DC859 /* Shared (App) */,
+				92F6473028F810E1005DC859 /* Shared (Extension) */,
+				92F6474128F810E1005DC859 /* iOS (App) */,
+				92F6475228F810E1005DC859 /* macOS (App) */,
+				92F6476128F810E1005DC859 /* iOS (Extension) */,
+				92F6476B28F810E1005DC859 /* macOS (Extension) */,
+				92F6474028F810E1005DC859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92F6472728F810E0005DC859 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				92F6472E28F810E0005DC859 /* ViewController.swift */,
+				92F6472F28F810E1005DC859 /* Assets.xcassets */,
+				92F6472828F810E0005DC859 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		92F6472828F810E0005DC859 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92F6472928F810E0005DC859 /* Main.html */,
+				92F6472B28F810E0005DC859 /* Icon.png */,
+				92F6472C28F810E0005DC859 /* Style.css */,
+				92F6472D28F810E0005DC859 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92F6473028F810E1005DC859 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				92F6473128F810E1005DC859 /* SafariWebExtensionHandler.swift */,
+				92F6473228F810E1005DC859 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		92F6473228F810E1005DC859 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92F6473328F810E1005DC859 /* _locales */,
+				92F6473428F810E1005DC859 /* images */,
+				92F6473528F810E1005DC859 /* manifest.json */,
+				92F6473628F810E1005DC859 /* background.js */,
+				92F6473728F810E1005DC859 /* content.js */,
+				92F6473828F810E1005DC859 /* popup.html */,
+				92F6473928F810E1005DC859 /* popup.css */,
+				92F6473A28F810E1005DC859 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92F6474028F810E1005DC859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92F6473F28F810E1005DC859 /* TimerSites.app */,
+				92F6475128F810E1005DC859 /* TimerSites.app */,
+				92F6475D28F810E1005DC859 /* TimerSites Extension.appex */,
+				92F6476728F810E1005DC859 /* TimerSites Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92F6474128F810E1005DC859 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				92F6474228F810E1005DC859 /* AppDelegate.swift */,
+				92F6474428F810E1005DC859 /* SceneDelegate.swift */,
+				92F6474628F810E1005DC859 /* LaunchScreen.storyboard */,
+				92F6474928F810E1005DC859 /* Main.storyboard */,
+				92F6474C28F810E1005DC859 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		92F6475228F810E1005DC859 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				92F6475328F810E1005DC859 /* AppDelegate.swift */,
+				92F6475528F810E1005DC859 /* Main.storyboard */,
+				92F6475828F810E1005DC859 /* TimerSites.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		92F6476128F810E1005DC859 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				92F6476228F810E1005DC859 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		92F6476B28F810E1005DC859 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				92F6476C28F810E1005DC859 /* Info.plist */,
+				92F6476D28F810E1005DC859 /* TimerSites.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92F6473E28F810E1005DC859 /* TimerSites (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F6479228F810E1005DC859 /* Build configuration list for PBXNativeTarget "TimerSites (iOS)" */;
+			buildPhases = (
+				92F6473B28F810E1005DC859 /* Sources */,
+				92F6473C28F810E1005DC859 /* Frameworks */,
+				92F6473D28F810E1005DC859 /* Resources */,
+				92F6479128F810E1005DC859 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F6476028F810E1005DC859 /* PBXTargetDependency */,
+			);
+			name = "TimerSites (iOS)";
+			productName = "TimerSites (iOS)";
+			productReference = 92F6473F28F810E1005DC859 /* TimerSites.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92F6475028F810E1005DC859 /* TimerSites (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F6479928F810E1005DC859 /* Build configuration list for PBXNativeTarget "TimerSites (macOS)" */;
+			buildPhases = (
+				92F6474D28F810E1005DC859 /* Sources */,
+				92F6474E28F810E1005DC859 /* Frameworks */,
+				92F6474F28F810E1005DC859 /* Resources */,
+				92F6479828F810E1005DC859 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F6476A28F810E1005DC859 /* PBXTargetDependency */,
+			);
+			name = "TimerSites (macOS)";
+			productName = "TimerSites (macOS)";
+			productReference = 92F6475128F810E1005DC859 /* TimerSites.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92F6475C28F810E1005DC859 /* TimerSites Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F6478E28F810E1005DC859 /* Build configuration list for PBXNativeTarget "TimerSites Extension (iOS)" */;
+			buildPhases = (
+				92F6475928F810E1005DC859 /* Sources */,
+				92F6475A28F810E1005DC859 /* Frameworks */,
+				92F6475B28F810E1005DC859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimerSites Extension (iOS)";
+			productName = "TimerSites Extension (iOS)";
+			productReference = 92F6475D28F810E1005DC859 /* TimerSites Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		92F6476628F810E1005DC859 /* TimerSites Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F6479528F810E1005DC859 /* Build configuration list for PBXNativeTarget "TimerSites Extension (macOS)" */;
+			buildPhases = (
+				92F6476328F810E1005DC859 /* Sources */,
+				92F6476428F810E1005DC859 /* Frameworks */,
+				92F6476528F810E1005DC859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimerSites Extension (macOS)";
+			productName = "TimerSites Extension (macOS)";
+			productReference = 92F6476728F810E1005DC859 /* TimerSites Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92F6472328F810E0005DC859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					92F6473E28F810E1005DC859 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					92F6475028F810E1005DC859 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					92F6475C28F810E1005DC859 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					92F6476628F810E1005DC859 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 92F6472628F810E0005DC859 /* Build configuration list for PBXProject "TimerSites" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92F6472228F810E0005DC859;
+			productRefGroup = 92F6474028F810E1005DC859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F6473E28F810E1005DC859 /* TimerSites (iOS) */,
+				92F6475028F810E1005DC859 /* TimerSites (macOS) */,
+				92F6475C28F810E1005DC859 /* TimerSites Extension (iOS) */,
+				92F6476628F810E1005DC859 /* TimerSites Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92F6473D28F810E1005DC859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F6477028F810E1005DC859 /* Icon.png in Resources */,
+				92F6474828F810E1005DC859 /* LaunchScreen.storyboard in Resources */,
+				92F6476E28F810E1005DC859 /* Main.html in Resources */,
+				92F6477428F810E1005DC859 /* Script.js in Resources */,
+				92F6477828F810E1005DC859 /* Assets.xcassets in Resources */,
+				92F6474B28F810E1005DC859 /* Main.storyboard in Resources */,
+				92F6477228F810E1005DC859 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6474F28F810E1005DC859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F6477128F810E1005DC859 /* Icon.png in Resources */,
+				92F6477328F810E1005DC859 /* Style.css in Resources */,
+				92F6475728F810E1005DC859 /* Main.storyboard in Resources */,
+				92F6477528F810E1005DC859 /* Script.js in Resources */,
+				92F6477928F810E1005DC859 /* Assets.xcassets in Resources */,
+				92F6476F28F810E1005DC859 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6475B28F810E1005DC859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F6478228F810E1005DC859 /* background.js in Resources */,
+				92F6478828F810E1005DC859 /* popup.css in Resources */,
+				92F6478628F810E1005DC859 /* popup.html in Resources */,
+				92F6477E28F810E1005DC859 /* images in Resources */,
+				92F6478028F810E1005DC859 /* manifest.json in Resources */,
+				92F6477C28F810E1005DC859 /* _locales in Resources */,
+				92F6478428F810E1005DC859 /* content.js in Resources */,
+				92F6478A28F810E1005DC859 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6476528F810E1005DC859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F6478328F810E1005DC859 /* background.js in Resources */,
+				92F6478928F810E1005DC859 /* popup.css in Resources */,
+				92F6478728F810E1005DC859 /* popup.html in Resources */,
+				92F6477F28F810E1005DC859 /* images in Resources */,
+				92F6478128F810E1005DC859 /* manifest.json in Resources */,
+				92F6477D28F810E1005DC859 /* _locales in Resources */,
+				92F6478528F810E1005DC859 /* content.js in Resources */,
+				92F6478B28F810E1005DC859 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92F6473B28F810E1005DC859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F6477628F810E1005DC859 /* ViewController.swift in Sources */,
+				92F6474328F810E1005DC859 /* AppDelegate.swift in Sources */,
+				92F6474528F810E1005DC859 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6474D28F810E1005DC859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F6477728F810E1005DC859 /* ViewController.swift in Sources */,
+				92F6475428F810E1005DC859 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6475928F810E1005DC859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F6477A28F810E1005DC859 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F6476328F810E1005DC859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F6477B28F810E1005DC859 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92F6476028F810E1005DC859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92F6475C28F810E1005DC859 /* TimerSites Extension (iOS) */;
+			targetProxy = 92F6475F28F810E1005DC859 /* PBXContainerItemProxy */;
+		};
+		92F6476A28F810E1005DC859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92F6476628F810E1005DC859 /* TimerSites Extension (macOS) */;
+			targetProxy = 92F6476928F810E1005DC859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92F6472928F810E0005DC859 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F6472A28F810E0005DC859 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		92F6474628F810E1005DC859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F6474728F810E1005DC859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92F6474928F810E1005DC859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F6474A28F810E1005DC859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92F6475528F810E1005DC859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F6475628F810E1005DC859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92F6478C28F810E1005DC859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92F6478D28F810E1005DC859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		92F6478F28F810E1005DC859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDJBCKZT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TimerSites Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.TimerSites.Extension;
+				PRODUCT_NAME = "TimerSites Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92F6479028F810E1005DC859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDJBCKZT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TimerSites Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.TimerSites.Extension;
+				PRODUCT_NAME = "TimerSites Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92F6479328F810E1005DC859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDJBCKZT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TimerSites;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.TimerSites;
+				PRODUCT_NAME = TimerSites;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92F6479428F810E1005DC859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDJBCKZT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TimerSites;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.TimerSites;
+				PRODUCT_NAME = TimerSites;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92F6479628F810E1005DC859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/TimerSites.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDJBCKZT4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TimerSites Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.TimerSites.Extension;
+				PRODUCT_NAME = "TimerSites Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		92F6479728F810E1005DC859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/TimerSites.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDJBCKZT4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TimerSites Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.TimerSites.Extension;
+				PRODUCT_NAME = "TimerSites Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		92F6479A28F810E1005DC859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/TimerSites.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDJBCKZT4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimerSites;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.TimerSites;
+				PRODUCT_NAME = TimerSites;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		92F6479B28F810E1005DC859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/TimerSites.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDJBCKZT4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimerSites;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.TimerSites;
+				PRODUCT_NAME = TimerSites;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92F6472628F810E0005DC859 /* Build configuration list for PBXProject "TimerSites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F6478C28F810E1005DC859 /* Debug */,
+				92F6478D28F810E1005DC859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F6478E28F810E1005DC859 /* Build configuration list for PBXNativeTarget "TimerSites Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F6478F28F810E1005DC859 /* Debug */,
+				92F6479028F810E1005DC859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F6479228F810E1005DC859 /* Build configuration list for PBXNativeTarget "TimerSites (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F6479328F810E1005DC859 /* Debug */,
+				92F6479428F810E1005DC859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F6479528F810E1005DC859 /* Build configuration list for PBXNativeTarget "TimerSites Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F6479628F810E1005DC859 /* Debug */,
+				92F6479728F810E1005DC859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F6479928F810E1005DC859 /* Build configuration list for PBXNativeTarget "TimerSites (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F6479A28F810E1005DC859 /* Debug */,
+				92F6479B28F810E1005DC859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92F6472328F810E0005DC859 /* Project object */;
+}
