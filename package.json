@@ -4,7 +4,7 @@
   "description": "Safari extension for sites timer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "esbuild 'Shared (Extension)'/Resources/popup.js --bundle --loader:.js=jsx --minify --sourcemap --outdir='Shared (Extension)'/Resources/dist"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/goDlin86/TimerSites/issues"
   },
-  "homepage": "https://github.com/goDlin86/TimerSites#readme"
+  "homepage": "https://github.com/goDlin86/TimerSites#readme",
+  "dependencies": {
+    "dayjs": "^1.11.5",
+    "esbuild": "^0.15.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
