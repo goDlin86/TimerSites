@@ -1,0 +1,23 @@
+{
+  "name": "timersites",
+  "version": "1.0.0",
+  "description": "Safari extension for sites timer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goDlin86/TimerSites.git"
+  },
+  "keywords": [
+    "safari",
+    "extension"
+  ],
+  "author": "goDlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goDlin86/TimerSites/issues"
+  },
+  "homepage": "https://github.com/goDlin86/TimerSites#readme"
+}
