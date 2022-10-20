@@ -7,7 +7,7 @@ dayjs.locale('ru')
 dayjs.extend(duration)
 
 const TimeView = ({ duration, startTime }) => {
-    const allduration = duration + (startTime ? (dayjs().valueOf() - startTime) / 1000 : 0)
+    const allduration = duration + (startTime ? (dayjs().valueOf() - startTime)/1000 : 0)
     const dur = dayjs.duration(allduration, 's')
     const hours = dur.hours() + 24 * dur.days()
 

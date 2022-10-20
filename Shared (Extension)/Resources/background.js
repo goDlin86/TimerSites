@@ -56,7 +56,7 @@ const stopTimer = (activeSite) => {
             
             let k = storeSites[index].sites.findIndex(obj => obj.host === activeSite.host)
             if (k === -1)
-                storeSites[index].sites.push({ host: activeSite.host, timer: 0 })
+                storeSites[index].sites.push({ host: activeSite.host, timer: (new Date().getTime() - activeSite.startTime) / 1000 })
             else
                 storeSites[index].sites[k].timer += (new Date().getTime() - activeSite.startTime) / 1000
             

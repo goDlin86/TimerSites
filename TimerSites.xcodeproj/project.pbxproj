@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9234C72328FFB62000702B9D /* ToggleButton.js in Resources */ = {isa = PBXBuildFile; fileRef = 9234C72228FFB62000702B9D /* ToggleButton.js */; };
+		9234C72428FFB62000702B9D /* ToggleButton.js in Resources */ = {isa = PBXBuildFile; fileRef = 9234C72228FFB62000702B9D /* ToggleButton.js */; };
 		92506A9928FA737B0012622E /* TimeView.js in Resources */ = {isa = PBXBuildFile; fileRef = 92506A9628FA737B0012622E /* TimeView.js */; };
 		92506A9A28FA737B0012622E /* TimeView.js in Resources */ = {isa = PBXBuildFile; fileRef = 92506A9628FA737B0012622E /* TimeView.js */; };
 		9289087E28F9A9D400BD7F27 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 9289087D28F9A9D400BD7F27 /* dist */; };
@@ -94,6 +96,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9234C72228FFB62000702B9D /* ToggleButton.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ToggleButton.js; sourceTree = "<group>"; };
 		92506A9628FA737B0012622E /* TimeView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = TimeView.js; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
 		9289087D28F9A9D400BD7F27 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dist; sourceTree = "<group>"; };
 		92F6472A28F810E0005DC859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -164,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				92506A9628FA737B0012622E /* TimeView.js */,
+				9234C72228FFB62000702B9D /* ToggleButton.js */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -438,6 +442,7 @@
 				92F6478028F810E1005DC859 /* manifest.json in Resources */,
 				92F6477C28F810E1005DC859 /* _locales in Resources */,
 				9289087E28F9A9D400BD7F27 /* dist in Resources */,
+				9234C72328FFB62000702B9D /* ToggleButton.js in Resources */,
 				92F6478428F810E1005DC859 /* content.js in Resources */,
 				92F6478A28F810E1005DC859 /* popup.js in Resources */,
 			);
@@ -455,6 +460,7 @@
 				92F6478128F810E1005DC859 /* manifest.json in Resources */,
 				92F6477D28F810E1005DC859 /* _locales in Resources */,
 				9289087F28F9A9D400BD7F27 /* dist in Resources */,
+				9234C72428FFB62000702B9D /* ToggleButton.js in Resources */,
 				92F6478528F810E1005DC859 /* content.js in Resources */,
 				92F6478B28F810E1005DC859 /* popup.js in Resources */,
 			);

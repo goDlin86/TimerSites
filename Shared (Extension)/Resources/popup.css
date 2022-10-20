@@ -3,7 +3,6 @@
 }
 
 body {
-    width: 100px;
     padding: 10px;
 
     font-family: system-ui;
@@ -12,4 +11,39 @@ body {
 
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
+}
+
+.date {
+    font-weight: bold;
+}
+.grid {
+    display: grid;
+    gap: 10px;
+}
+.toggle {
+    position: relative;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 5px;
+}
+.toggle > div {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+.active {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 26px;
+    height: 18px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    transform: translateX(25px);
+    transition: transform 0.3s, width 0.3s;
+}
+.active.percent {
+    width: 15px;
+    transform: translateX(0);
 }
