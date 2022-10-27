@@ -2,9 +2,12 @@
     color-scheme: light dark;
 }
 
-body {
-    padding: 10px;
+* { box-sizing: border-box; }
 
+body {
+    margin: 0;
+    padding: 10px;
+    width: 800px;
     font-family: system-ui;
     text-align: center;
 }
@@ -14,16 +17,29 @@ body {
 }
 
 .date {
+    margin: 10px 0;
     font-weight: bold;
 }
 .grid {
     display: grid;
-    gap: 10px;
+    gap: 5px;
+}
+.grid > div {
+    position: relative;
+    background-color: rgba(0,0,0,0.2);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+.grid > div:hover {
+    background-color: rgba(0,0,0,0.5);
 }
 .toggle {
     position: relative;
     display: inline-block;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.2);
     border-radius: 5px;
     padding: 5px;
 }
@@ -36,14 +52,52 @@ body {
     position: absolute;
     top: 5px;
     left: 5px;
-    width: 26px;
-    height: 18px;
-    background-color: rgba(0,0,0,0.2);
+    width: 59px;
+    height: 28px;
+    background-color: rgba(0,0,0,0.3);
     border-radius: 5px;
     transform: translateX(25px);
     transition: transform 0.3s, width 0.3s;
+    z-index: -1;
 }
 .active.percent {
-    width: 15px;
+    width: 25px;
     transform: translateX(0);
+}
+
+.tooltip {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+    visibility: hidden;
+    white-space: nowrap;
+    z-index: 999;
+    top: -30px;
+}
+.tooltip::before {
+    content: " ";
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-width: 6px;
+    margin-left: -6px;
+    top: 100%;
+    border-top-color: rgba(0,0,0,0.9);
+}
+
+.tooltip.show {
+    opacity: 0.9;
+    margin-top: 0;
+    margin-left: 0;
+    visibility: visible;
 }

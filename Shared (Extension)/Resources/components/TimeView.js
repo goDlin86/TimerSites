@@ -26,7 +26,9 @@ const TimeView = ({ duration, startTime }) => {
 
     return (
         <div className="time">
-            {allduration > 0 && <div>{(hours < 10 ? '0' + hours : hours) + time.format(':mm:ss')}</div>}
+            {hours > 0 && hours + 'ч'}
+            {time.minutes() > 0 && time.minutes() + 'м'}
+            {time.seconds() + 'с'}
         </div>
     )
 }

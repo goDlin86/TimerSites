@@ -5,7 +5,7 @@ const ToggleButton = ({ showPercent, onClick }) => {
         <div className="toggle" onClick={onClick}>
             <div className={showPercent ? "active percent" : "active"} />
             <div>%</div>
-            <div>Dur</div>
+            <div>Время</div>
         </div>
     )
 }
